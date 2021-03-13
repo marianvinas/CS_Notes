@@ -7,9 +7,9 @@ Examples:
 - addition(7,3) -> 10
 """
 
-def addition(a,b):
-    s = a + b
-    return sum
+def addition(a, b):
+    # your code here
+    return a + b
 
-#printing/testing
-print(addition(3,2))
+# console.log()
+print( addition(3,2) )  #5
