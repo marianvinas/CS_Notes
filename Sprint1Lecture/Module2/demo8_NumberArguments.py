@@ -10,11 +10,12 @@ Examples:
 - num_args(True, False) ➞ 2
 - num_args({}) ➞ 1
 """
+
 # ...array
-def num_args(*args, **kwargs):
+def num_args(*args, **kwargs):  #kwargs = keyword argument, spread any named arguments, 
     # Your code here
-    print(len(args))
-    print(kwargs)
+    print(len(args))  #2
+    print(kwargs)     #{'arg2': 'this is a keyword arg'}
     return
 
 num_args("foo", "bar", arg2='this is a keyword arg')

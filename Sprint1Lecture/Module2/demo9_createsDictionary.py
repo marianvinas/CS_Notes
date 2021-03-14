@@ -24,4 +24,4 @@ def mapping(letters):
 
     return letter_dict
 
-print(mapping(["a", "v", "y", "z"]))
+print(mapping(["a", "v", "y", "z"])) #{'a': 'A', 'v': 'V', 'y': 'Y', 'z': 'Z'}
