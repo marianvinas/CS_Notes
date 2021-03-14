@@ -17,6 +17,4 @@ def sort_by_length(lst):
     print(lst)
 
     # sort_by_length(["a", "ccc", "dddd", "bb"])
-sort_by_length(["apple", "pie", "shortcake"])
-    
-    
+sort_by_length(["apple", "pie", "shortcake"])   # ['shortcake', 'apple', 'pie']
