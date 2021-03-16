@@ -28,6 +28,6 @@ def emotify(txt):
     txt = txt.replace("smile", ":D").replace("grin", ":)").replace('sad', ":(").replace("mad", ":P")
     return txt
 
-print(emotify("Make me smile, mad, sad"))
-print(emotify("Make me mad"))
-print(emotify("Make me sad"))
+print(emotify("Make me smile, mad, sad"))  #Make me :D, :P, :(
+print(emotify("Make me mad"))  #Make me :P
+print(emotify("Make me sad"))  #Make me :(

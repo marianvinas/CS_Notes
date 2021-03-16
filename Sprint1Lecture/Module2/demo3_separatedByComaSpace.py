@@ -20,11 +20,11 @@ def multiply_nums(nums):
     final_val = 1
     for num in nums_array:
         final_val *= int(num)    
-        final_val = final_val * int(num)
+        #final_val = final_val * int(num)
     return final_val
 
 
 
-print(multiply_nums("1, 2, 3, 4"))
-print(multiply_nums("54, 75, 453, 0"))
-print(multiply_nums("10, -2"))
+print(multiply_nums("1, 2, 3, 4"))  #24
+print(multiply_nums("54, 75, 453, 0"))  #0
+print(multiply_nums("10, -2"))  #-20
